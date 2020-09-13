@@ -10,6 +10,9 @@ Memory Pill passively records the last time a medication bottle was opened to pr
 
 ## Media
 
+YouTube:  
+https://www.youtube.com/watch?v=GQ3YpKmJ9Q4
+
 ## Bill of Materials
 
 - 1 x Arduino Nano 33 IoT
