@@ -36,8 +36,9 @@ void setup() {
 }
 
 void loop() {
-  if (digitalRead(button) == HIGH) {
+  if (digitalRead(button) == LOW) {
     buttonPressed();
+    delay(5000);
   }
 }
 
