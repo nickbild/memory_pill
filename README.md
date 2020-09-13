@@ -12,10 +12,40 @@ Memory Pill passively records the last time a medication bottle was opened to pr
 <img src="https://raw.githubusercontent.com/nickbild/memory_pill/master/media/memory_pill_workflow.jpg">
 </p>
 
+A small hole is drilled into the threaded portion of a medicine bottle.  A pushbutton is attached inside the bottle so that the button lines up with the hole.  A 3D printed button extender is glued to the button such that removing the bottle top will release the button.
+
+The button is connected to an Arduino Nano 33 IoT.  When the button is released, the Arduino connects to a remote web API that records the time the request was received.  A Memory Pill app was created on a LILYGO TTGO T-Watch-2020 that will connect to the web API and display the stored time.
+
 ## Media
 
 YouTube:  
 https://www.youtube.com/watch?v=GQ3YpKmJ9Q4
+
+![full_setup](https://raw.githubusercontent.com/nickbild/memory_pill/master/media/bottle_watch_on_sm.jpg)
+
+Closeup of triggering mechanism:
+
+![closeup](https://raw.githubusercontent.com/nickbild/memory_pill/master/media/bottle_closeup_sm.jpg)
+
+Internal electronics pulled out:
+
+![guts](https://raw.githubusercontent.com/nickbild/memory_pill/master/media/bottle_guts_sm.jpg)
+
+Watch closeup:
+
+![bottle](https://raw.githubusercontent.com/nickbild/memory_pill/master/media/watch_on_sm.jpg)
+
+Bottle without extender:
+
+![bottle](https://raw.githubusercontent.com/nickbild/memory_pill/master/media/bottle_sm.jpg)
+
+Button extender:
+
+![bottle](https://raw.githubusercontent.com/nickbild/memory_pill/master/media/button_extender_sm.jpg)
+
+Button extender model:
+
+![bottle](https://raw.githubusercontent.com/nickbild/memory_pill/master/media/button_extender_model_sm.jpg)
 
 ## Bill of Materials
 
