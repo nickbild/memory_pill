@@ -312,7 +312,7 @@ MenuBar::lv_menu_config_t _cfg[7] = {
     {.name = "WiFi",  .img = (void *) &wifi, .event_cb = wifi_event_cb},
     {.name = "Bluetooth",  .img = (void *) &bluetooth, /*.event_cb = bluetooth_event_cb*/},
     {.name = "SD Card",  .img = (void *) &sd,  /*.event_cb =sd_event_cb*/},
-    {.name = "Medicine",  .img = (void *) &bottle, .event_cb = light_event_cb},
+    {.name = "Memory Pill",  .img = (void *) &bottle, .event_cb = light_event_cb},
     {.name = "Setting",  .img = (void *) &setting, /*.event_cb = setting_event_cb */},
     {.name = "Modules",  .img = (void *) &modules, /*.event_cb = modules_event_cb */},
     {.name = "Camera",  .img = (void *) &CAMERA_PNG, /*.event_cb = camera_event_cb*/ }
