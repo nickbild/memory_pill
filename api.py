@@ -44,7 +44,7 @@ class GetTime(Resource):
         global last_open_dt
 
         if last_open_dt is not None:
-            return last_open_dt.strftime("%m/%d/%Y, %H:%M:%S")
+            return last_open_dt.strftime("%m/%d/%Y, %H:%M")
 
         return None
 
