@@ -35,6 +35,7 @@ LV_IMG_DECLARE(menu);
 
 LV_IMG_DECLARE(wifi);
 LV_IMG_DECLARE(light);
+LV_IMG_DECLARE(bottle);
 LV_IMG_DECLARE(bluetooth);
 LV_IMG_DECLARE(sd);
 LV_IMG_DECLARE(setting);
@@ -219,7 +220,7 @@ public:
         menuStyle.body.border.color = LV_COLOR_GRAY;
         menuStyle.body.border.width = 0;
         menuStyle.body.border.opa = LV_OPA_50;
-        menuStyle.text.color = LV_COLOR_WHITE;
+        menuStyle.text.color = LV_COLOR_BLACK;
         menuStyle.image.color = LV_COLOR_WHITE;
 
 
@@ -311,7 +312,7 @@ MenuBar::lv_menu_config_t _cfg[7] = {
     {.name = "WiFi",  .img = (void *) &wifi, .event_cb = wifi_event_cb},
     {.name = "Bluetooth",  .img = (void *) &bluetooth, /*.event_cb = bluetooth_event_cb*/},
     {.name = "SD Card",  .img = (void *) &sd,  /*.event_cb =sd_event_cb*/},
-    {.name = "Light",  .img = (void *) &light, .event_cb = light_event_cb},
+    {.name = "Medicine",  .img = (void *) &bottle, .event_cb = light_event_cb},
     {.name = "Setting",  .img = (void *) &setting, /*.event_cb = setting_event_cb */},
     {.name = "Modules",  .img = (void *) &modules, /*.event_cb = modules_event_cb */},
     {.name = "Camera",  .img = (void *) &CAMERA_PNG, /*.event_cb = camera_event_cb*/ }
