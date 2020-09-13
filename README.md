@@ -45,7 +45,7 @@ Button extender:
 
 Button extender model:
 
-![bottle](https://raw.githubusercontent.com/nickbild/memory_pill/master/media/button_extender_model_sm.jpg)
+![bottle](https://raw.githubusercontent.com/nickbild/memory_pill/master/media/button_extender_model_sm.png)
 
 ## Bill of Materials
 
