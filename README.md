@@ -2,6 +2,10 @@
 
 Memory Pill passively records the last time a medication bottle was opened to prevent over- and underdosing of medications when you cannot remember if you have already taken a scheduled dose.
 
+<p align="center">
+<img src="https://raw.githubusercontent.com/nickbild/memory_pill/master/media/memory_pill.gif">
+</p>
+
 ## How It Works
 
 <p align="center">
